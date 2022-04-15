@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pricing_Table.css">
+
+    <title>Pricing</title>
+</head>
+<body>
+    <div class="top-banner"> 
+        <p class="current-plan">Your current Plan</p>
+        <p class="plan-type">Starter Trails . 500 MAUS</p>
+    </div> <!-- End of Top Banner div -->
+
+    <div class="container">
+        <h1 class="title">Choose a plan</h1>
+        <div class="toggle-switch">
+            <span>Billed Annually</span>
+            <input type="checkbox" class="toggler">
+            <span>Billed Monthly</span>
+        </div> <!-- End of Toggle Switch div -->
+
+        <div class="cards">
+            <!-- Starter Plan-->
+            <div class="card" id="card-1"> 
+                <h1 class="card-title">Starter</h1>
+                <h2 class="card-price" id="starter-price">$19 <span> / month </span></h2>
+                <ul class="card-plan">
+                    <li>500MAUS</li>
+                    <li>3 Projects</li>
+                    <li>Unlimited Guides</li>
+                    <li>Unlimited Flows</li>
+                    <li>Unlimited Branded Themes</li>
+                    <li>Email Support</li>
+                </ul>
+                <button type="button" class="card-btn">Choose Plan</button>
+            </div>  <!-- End of Card-1 div -->
+
+            <!-- Pro Plan -->
+            <div class="card active" id="card-2"> 
+                <h1 class="card-title">Pro</h1>
+                <h2 class="card-price" id="pro-price">$99 <span> / month </span></h2>
+                
+                <select name="" id="maus">
+                    <option value="500">500MAUS</option>
+                    <option value="1000">1000MAUS</option>
+                    <option value="1500">1500MAUS</option>
+                    <option value="2000">2000MAUS</option>
+                    <option value="2500">2500MAUS</option>
+                </select>
+                <span class="note">Monthly active users</span>
+
+                <ul class="card-plan">
+                    <li>All starter featured, Plus : </li>
+                    <li>Unlimited Projects</li>
+                    <li>Unlimited Fully Customizable Themes</li>
+                    <li>A Dedicated Customer Success Manager</li>
+                </ul>
+                <button type="button" class="card-btn">Choose Plan</button>
+            </div>  <!-- End of Card-2 div -->
+
+            <!-- Enterprise Card -->
+            <div class="card" id="card-3"> 
+                <h1 class="card-title">Enterprise</h1>
+                <h2 class="card-price">Let's Talk!</h2>
+                <ul class="card-plan">
+                    <li>All Pro Features</li>
+                    <li>Unlimited MAUS</li>
+                    <li>Dedicated Environment</li>
+                    <li>Enterprise Account Administration</li>
+                    <li>Premium Account and Services</li>
+                </ul>
+                <button type="button" class="card-btn">Contact Us</button>
+            </div>  <!-- End of Card-3 div -->
+        </div> <!-- End of Cards div -->
+    </div> <!-- End of Container div -->
+    <script src="Pricing_Table.js"></script>
+</body>
+</html>
